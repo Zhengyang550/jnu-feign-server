@@ -18,8 +18,8 @@ public class Demo {
             return null;
         })
                 .serverName("nacos-produce")
-//                .serverAddr("nacos地址")
-                .url("nacos-produce服务地址")
+//                .serverAddr("nacos address")
+                .url("nacos-produce server ip address")
                 .build();
         DemoResourceApi demoResourceApi = apiClient.getApiRootResource().getDemoResourceApi();
         String res = null;
