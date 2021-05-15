@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.jnu.example.feign.sdk.config.AuthAutoConfiguration
